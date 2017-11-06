@@ -1,0 +1,10 @@
+<h1>Recipies</h1>
+
+<ol>
+<% @recipies.each do |recipe| %>
+  <li>
+    <%= recipe.name %>
+    <%= recipe.description%>
+  </li>
+<% end %>
+</ol>
